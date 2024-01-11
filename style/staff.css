@@ -12,11 +12,10 @@ body {
     text-align: center;
 }
 
-h {
+h1 {
     font-family: Minecraft;
     font-weight: 900;
     color: white;
-    text-transform: uppercase;
     font-size: 5rem;
     padding-top: 4%;
     padding-bottom: 4%;
