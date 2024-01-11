@@ -94,12 +94,19 @@ h4 {
     font-family: Minecraft;
 }
 
+h5 {
+    color: white;
+    font-family: Minecraft;
+}
+
 .staff-list {
     text-align: center;
 }
 
 .owner {
     background-color: #2b3035;
-    width: 15rem;
+    width: 20rem;
     height: 15rem;
+    margin-left: 40%;
+    border-radius: 40px;
 }
