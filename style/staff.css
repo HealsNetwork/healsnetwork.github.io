@@ -98,11 +98,8 @@ h4 {
     text-align: center;
 }
 
-.row {
-width: 100%;
-}
-
-.test {
+.owner {
     background-color: #2b3035;
-    height: auto;
+    width: 15rem;
+    height: 15rem;
 }
