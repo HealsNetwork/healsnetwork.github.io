@@ -106,7 +106,6 @@ h5 {
 .owner {
     background-color: #2b3035;
     width: 20rem;
-    height: 15rem;
-    margin-left: 40%;
+    height: auto;
     border-radius: 40px;
 }
