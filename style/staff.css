@@ -21,3 +21,67 @@ h1 {
     padding-top: 4%;
     padding-bottom: 4%;
 }
+
+.nav-banner {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 2%;
+}
+
+.nav-banner a{
+    text-decoration: none;
+    text-shadow: 0 0 10px black;
+    font-size: 1.2rem;
+    transition: all 0.5s ease, visibility 0s;
+    font-family: poppins-semibold,poppins,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    opacity: 75%;
+}
+
+.nav-banner a:hover{
+    transition: all 0.5s ease, visibility 0s;
+    font-size: 1.5rem;
+    opacity: 100%;
+}
+
+.offline a{
+    color: red;
+    cursor: not-allowed;
+}
+
+.offline a:hover{
+    text-decoration: line-through;
+}
+
+.manutenzione a{
+    color: #ffd600;
+    cursor: progress;
+}
+
+.online a{
+    color: white;
+}
+
+.current-page a{
+    opacity: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.5s ease, visibility 0s;
+    border-radius: 60px;
+    border: 0px solid #2580ff;
+    background: #E93FFF;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    box-shadow: 0 0 10px 10px #E93FFF;
+    text-shadow: 0 0 0px;
+}
+
+.current-page:hover a {
+    transition: all 0.5s ease, visibility 0s;
+    background: #2580ff;
+    box-shadow: 0 0 15px 15px #2580ff;
+    color: white;
+}
