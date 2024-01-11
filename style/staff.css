@@ -16,13 +16,11 @@ h1 {
     font-family: Minecraft;
     font-weight: 900;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
     padding-top: 4%;
-    padding-bottom: 4%;
 }
 
 .nav-banner {
-    margin-top: 5%;
     margin-left: 25%;
     margin-right: 25%;
     padding-bottom: 2%;
