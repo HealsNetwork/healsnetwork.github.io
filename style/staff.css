@@ -83,5 +83,7 @@ h1 {
 }
 
 .gray-line {
-    
+    background-color: #22272a;
+    width: 100%;
+    height: 10rem;
 }
