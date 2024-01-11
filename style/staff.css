@@ -13,5 +13,7 @@ body {
 }
 
 h1 {
-    
+    font-family: Minecraft;
+    font-weight: 900;
+    color: white;
 }
