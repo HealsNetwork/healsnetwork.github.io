@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HealsNetwork</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="header">
+      <img src="images/favicon.png" alt>
+
+      <!--Copy Ip Address-->
+      <script src="js/copy-ip-server.js"></script>
+      <link rel="stylesheet" href="style/copy-ip-server.css" />
+
+      <div class="inner" style="letter-spacing: 1px; text-shadow: 0 0 10px #E93FFF;">
+        <div class="logo-info">
+          <div class="info minecraft" onclick="copy('mc.HealsNetwork.it')">
+            <div class="txt l">
+              <h2 id="ip-text">mc.HealsNetwork.it</h2>
+              <div class="players" id="mc-users"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Online Players-->
+      <script src="js/online-players.js"></script>
+      <link rel="stylesheet" href="style/online-players.css" />
+
+      <small style="letter-spacing: 1px; text-shadow: 0 0 10px #00caff;">
+        <span data-playercounter-ip="play.coralmc.it"><b>0</b></span>
+        <span> Giocatori Online
+        </span>
+      </small>
+
+      <div class="container">
+        <div class="row nav-banner">
+          <div class="col-lg">
+            <h1 class="offline"><a href="#">Annunci</a></h1>
+          </div>
+          <div class="col-lg">
+            <h1 class="online"><a href="#">Forum</a></h1>
+          </div>
+          <div class="col-lg">
+            <h1 class="current-page"><a href="#">Home</a></h1>
+          </div>
+          <div class="col-lg">
+            <h1 class="manutenzione"><a href="#">Store</a></h1>
+          </div>
+          <div class="col-lg">
+            <h1 class="offline"><a href="#">Staff</a></h1>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

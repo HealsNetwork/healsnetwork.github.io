@@ -1,0 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft);
+
+span {
+    font-family: Minecraft;
+    color: white;
+    font-size: 1.5rem;
+}
