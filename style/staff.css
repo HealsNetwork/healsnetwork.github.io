@@ -6,7 +6,7 @@ body {
     background-color: #262b2f;
 }
 
-.staff-banner{
+.staff-banner {
     background-image: url("../images/staff-banner.png");
     background-size: cover;
     background-position: bottom;
@@ -27,42 +27,42 @@ h1 {
     padding-bottom: 2%;
 }
 
-.nav-banner a{
+.nav-banner a {
     text-decoration: none;
     text-shadow: 0 0 10px black;
     font-size: 1.2rem;
     transition: all 0.5s ease, visibility 0s;
-    font-family: poppins-semibold,poppins,sans-serif;
+    font-family: poppins-semibold, poppins, sans-serif;
     font-weight: 700;
     letter-spacing: 0.01em;
     opacity: 75%;
 }
 
-.nav-banner a:hover{
+.nav-banner a:hover {
     transition: all 0.5s ease, visibility 0s;
     font-size: 1.5rem;
     opacity: 100%;
 }
 
-.offline a{
+.offline a {
     color: red;
     cursor: not-allowed;
 }
 
-.offline a:hover{
+.offline a:hover {
     text-decoration: line-through;
 }
 
-.manutenzione a{
+.manutenzione a {
     color: #ffd600;
     cursor: progress;
 }
 
-.online a{
+.online a {
     color: white;
 }
 
-.current-page a{
+.current-page a {
     opacity: 100%;
     color: black;
     text-transform: uppercase;
@@ -103,24 +103,23 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  .container-owner {
+}
+
+.container-owner {
     width: 20rem;
     height: auto;
     background-color: #2b3035;
     border-radius: 40px;
-  }
-  
-  .img-left {
-    margin-left: -5%;
+}
+
+.img-left {
+    margin-left: -10%;
     float: left;
     width: 4rem;
     margin-right: 10px;
-  }
-  
-  .text-right {
+}
+
+.text-right {
     float: right;
     text-align: right;
-  }
-  
+}
