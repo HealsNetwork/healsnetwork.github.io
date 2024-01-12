@@ -11,6 +11,3 @@ function changeImageLinkText() {
     col.querySelector("img").src = `https://mc-heads.net/body/${text}`;
   }
 }
-
-// Avvia la funzione al caricamento della pagina
-document.addEventListener("DOMContentLoaded", changeImageLinkText);
