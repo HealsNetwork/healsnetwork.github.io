@@ -47,7 +47,10 @@
             const cols = document.querySelectorAll(".col");
 
 for (const col of cols) {
-  const imageUrl = `https://mc-heads.net/body/${col.textContent}`;
+  const h4 = col.querySelector("h4");
+  const playerName = h4.textContent;
+
+  const imageUrl = `https://mc-heads.net/body/${playerName}`;
   col.querySelector("img").src = imageUrl;
 }
 
