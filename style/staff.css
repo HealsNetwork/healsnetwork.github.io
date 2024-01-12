@@ -105,11 +105,14 @@ h5 {
     justify-content: space-around;
 }
 
-.container-owner {
+.container {
     width: 20rem;
     height: auto;
     background-color: #2b3035;
     border-radius: 40px;
+}
+
+.container-owner {
 }
 
 .img-left {
