@@ -43,7 +43,15 @@
     <div class="gray-line"></div>
 
     <section class="staff-list">
-        <script src="js/skin-src.js"></script>
+        <script>
+            const cols = document.querySelectorAll(".col");
+
+for (const col of cols) {
+  const imageUrl = `https://mc-heads.net/body/${col.textContent}`;
+  col.querySelector("img").src = imageUrl;
+}
+
+        </script>
         <div class="owner">
             <div class="row">
                 <div class="col">
