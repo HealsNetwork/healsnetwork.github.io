@@ -109,11 +109,11 @@ h5 {
     width: 20rem;
     height: auto;
     background-color: #2b3035;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .container-owner {
-    border: 0.1rem solid #ffc900;
+    border: 0.15rem solid #ffc900;
 }
 
 .img-left {
