@@ -124,6 +124,7 @@ h5 {
 }
 
 .text-right {
+
     float: right;
-    text-align: right;
+    text-align: center;
 }
