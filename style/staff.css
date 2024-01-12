@@ -128,3 +128,7 @@ h5 {
     float: right;
     text-align: left;
 }
+
+.tag-right {
+    margin: 0 0 0 1rem;
+}
