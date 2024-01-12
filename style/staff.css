@@ -100,16 +100,26 @@ h5 {
 }
 
 .staff-list {
-    text-align: center;
-}
-
-.container-owner {
-    background-color: #2b3035;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .container-owner {
     width: 20rem;
     height: auto;
+    background-color: #2b3035;
     border-radius: 40px;
-}
-
-.staff-list img {
+  }
+  
+  .img-left {
+    float: left;
     width: 4rem;
-}
+    margin-right: 10px;
+  }
+  
+  .text-right {
+    float: right;
+    text-align: right;
+  }
+  
