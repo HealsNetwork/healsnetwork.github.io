@@ -105,6 +105,12 @@ h5 {
     justify-content: space-around;
 }
 
+.staff-list .row {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
 .container {
     width: 20rem;
     height: auto;
