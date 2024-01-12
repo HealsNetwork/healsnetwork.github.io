@@ -109,3 +109,7 @@ h5 {
     height: auto;
     border-radius: 40px;
 }
+
+.staff-list img {
+    width: 1rem;
+}
