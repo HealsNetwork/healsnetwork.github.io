@@ -125,6 +125,10 @@ h5 {
     width: 16rem;
 }
 
+.box-start {
+    margin-left: 2rem;
+}
+
 .box-end {
     margin-right: 0rem;
 }
