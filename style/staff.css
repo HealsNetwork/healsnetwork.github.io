@@ -119,6 +119,10 @@ h5 {
     width: 16rem;
 }
 
+.container-end {
+    margin-right: 0rem;
+}
+
 .container-owner {
     border: 0.15rem solid #ffc900;
 }
