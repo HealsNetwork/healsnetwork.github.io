@@ -103,7 +103,6 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-right: 5rem; /* Increase bottom margin to parent container */
   }
   
   .container {
@@ -132,5 +131,9 @@ h4 {
   
   .tag-right {
     margin: 0 0 0 41%;
+  }
+  
+  .container:not(:last-child) {
+    margin-bottom: 20px; /* Add bottom margin to containers except the last one */
   }
   
