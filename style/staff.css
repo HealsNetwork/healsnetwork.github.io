@@ -108,10 +108,18 @@ h5 {
 }
 
 .container {
-    min-width: 15rem;
+    width: 15rem;
     height: auto;
     background-color: #2b3035;
     border-radius: 30px;
+}
+
+.container-large {
+    width: 16rem;
+}
+
+.container-margin {
+    margin-right: 5rem;
 }
 
 .container-owner {
