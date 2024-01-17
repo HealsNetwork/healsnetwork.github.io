@@ -89,7 +89,7 @@ h1 {
     height: 3rem;
 }
 
-.flex-container {
+.flex-box {
     display: flex;
     flex-direction: column;
 }
@@ -112,7 +112,7 @@ h5 {
     justify-content: space-around;
 }
 
-.container {
+.box {
     margin-bottom: 5%;
     margin-right: 5rem;
     width: 15rem;
@@ -121,19 +121,19 @@ h5 {
     border-radius: 30px;
 }
 
-.container-large {
+.box-large {
     width: 16rem;
 }
 
-.container-end {
+.box-end {
     margin-right: 0rem;
 }
 
-.container-end-dispari {
+.box-end-dispari {
     margin-right: 10rem;
 }
 
-.container-owner {
+.box-owner {
     border: 0.15rem solid #ffc900;
 }
 
@@ -154,10 +154,10 @@ h5 {
     text-align: center;
 }
 
-.container-margin {
+.box-margin {
     margin-right: 5%;
 }
 
-.container-developer {
+.box-developer {
     border: 0.15rem solid #00a5d8;
 }
