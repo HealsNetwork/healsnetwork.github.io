@@ -108,7 +108,7 @@ h5 {
 }
 
 .container {
-    width: 15rem;
+    min-width: 15rem;
     height: auto;
     background-color: #2b3035;
     border-radius: 30px;
