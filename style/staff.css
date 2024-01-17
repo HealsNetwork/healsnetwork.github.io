@@ -169,3 +169,20 @@ h5 {
 .box-developer {
     border: 0.15rem solid #00a5d8;
 }
+ 
+.box-admin {
+    border: 0.15rem solid #ad1616;
+}
+ 
+.box-mod {
+    border: 0.15rem solid #5cd400;
+}
+ 
+.box-helper {
+    border: 0.15rem solid #00a5d8;
+}
+ 
+.box-builder {
+    border: 0.15rem solid #00a5d8;
+}
+ 
