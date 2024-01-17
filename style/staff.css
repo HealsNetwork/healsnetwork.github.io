@@ -148,3 +148,7 @@ h5 {
 .container-margin {
     margin-right: 5%;
 }
+
+.container-developer {
+    border: 0.15rem solid #00a5d8;
+}
