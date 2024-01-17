@@ -103,7 +103,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 20px; /* Add bottom margin to parent container */
+    margin-bottom: 50px; /* Increase bottom margin to parent container */
   }
   
   .container {
