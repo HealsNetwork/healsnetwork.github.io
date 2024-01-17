@@ -92,43 +92,45 @@ h1 {
 h4 {
     color: white;
     font-family: Minecraft;
-}
-
-h5 {
+  }
+  
+  h5 {
     color: white;
     font-family: Minecraft;
-}
-
-.staff-list {
+  }
+  
+  .staff-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-.container {
+    margin-bottom: 20px; /* Add bottom margin to parent container */
+  }
+  
+  .container {
     width: 15rem;
     height: auto;
     background-color: #2b3035;
     border-radius: 30px;
-}
-
-.container-owner {
+  }
+  
+  .container-owner {
     border: 0.15rem solid #ffc900;
-}
-
-.img-left {
+  }
+  
+  .img-left {
     margin-left: -15%;
     float: left;
     width: 4rem;
     margin-right: 10px;
-}
-
-.text-right {
+  }
+  
+  .text-right {
     margin: 20% 15% 0 0;
     float: right;
     text-align: left;
-}
-
-.tag-right {
+  }
+  
+  .tag-right {
     margin: 0 0 0 41%;
-}
+  }
+  
