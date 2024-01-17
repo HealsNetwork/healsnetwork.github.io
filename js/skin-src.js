@@ -1,6 +1,6 @@
 function changeImageLinkText() {
-  // Ottieni tutti gli elementi col
-  const cols = document.querySelectorAll(".col");
+  // Ottieni tutti gli elementi container
+  const cols = document.querySelectorAll(".container");
 
   // Per ogni elemento col
   for (const col of cols) {
