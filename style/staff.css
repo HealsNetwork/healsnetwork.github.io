@@ -92,11 +92,13 @@ h1 {
 h4 {
     color: white;
     font-family: Minecraft;
+    font-size: 100%;
 }
 
 h5 {
     color: white;
     font-family: Minecraft;
+    font-size: 90%;
 }
 
 .staff-list {
