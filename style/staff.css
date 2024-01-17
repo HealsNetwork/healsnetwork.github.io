@@ -137,9 +137,6 @@ h5 {
     margin-right: 0rem;
 }
 
-.box-end-dispari {
-    margin-right: 10rem;
-}
 
 .box-owner {
     border: 0.15rem solid #ffc900;
@@ -169,20 +166,19 @@ h5 {
 .box-developer {
     border: 0.15rem solid #00a5d8;
 }
- 
+
 .box-admin {
     border: 0.15rem solid #ad1616;
 }
- 
+
 .box-mod {
     border: 0.15rem solid #5cd400;
 }
- 
+
 .box-helper {
     border: 0.15rem solid #74ffae;
 }
- 
+
 .box-builder {
     border: 0.15rem solid #0099dd;
 }
- 
