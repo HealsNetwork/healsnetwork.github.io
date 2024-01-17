@@ -1,14 +1,14 @@
 function changeImageLinkText() {
-  // Ottieni tutti gli elementi container
-  const containers = document.querySelectorAll(".container");
+  // Ottieni tutti gli elementi box
+  const boxs = document.querySelectorAll(".box");
 
-  // Per ogni elemento container
-  for (const container of containers) {
+  // Per ogni elemento box
+  for (const box of boxs) {
     // Ottieni il testo dall'elemento h4
-    const text = container.querySelector("h4").textContent;
+    const text = box.querySelector("h4").textContent;
 
     // Cambia il testo del link dell'immagine
-    container.querySelector("img").src = `https://mc-heads.net/body/${text}`;
+    box.querySelector("img").src = `https://mc-heads.net/body/${text}`;
   }
 }
 
