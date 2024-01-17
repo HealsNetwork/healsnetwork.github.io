@@ -127,12 +127,12 @@ h5 {
 
 .text-right {
     margin: 20% 15% 0 0;
-    float: right;
     text-align: left;
 }
 
 .tag-right {
     margin: 0 0 0 41%;
+    text-align: left;
 }
 
 .container-margin {
