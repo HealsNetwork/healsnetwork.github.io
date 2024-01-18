@@ -8,7 +8,7 @@ function changeImageLinkText() {
       const text = box.querySelector("h4").textContent;
 
       // Cambia il testo del link dell'immagine
-      box.querySelector("img").src = `https://mc-heads.net/body/${text}`;
+      box.querySelector("img").src = `https://mc-heads.net/body/${text}/3000px`;
     }
   }
 
